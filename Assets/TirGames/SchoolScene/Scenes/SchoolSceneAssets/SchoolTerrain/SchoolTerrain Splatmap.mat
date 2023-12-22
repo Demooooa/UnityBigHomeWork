@@ -1,0 +1,401 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SchoolTerrain Splatmap
+  m_Shader: {fileID: 4800000, guid: 6f64f1c0a2699f049b359df73c926832, type: 3}
+  m_ValidKeywords:
+  - _T2M_LAYER_0_NORMAL
+  - _T2M_LAYER_1_NORMAL
+  - _T2M_LAYER_2_NORMAL
+  - _T2M_LAYER_3_NORMAL
+  - _T2M_LAYER_4_NORMAL
+  - _T2M_LAYER_5_NORMAL
+  - _T2M_LAYER_6_NORMAL
+  - _T2M_LAYER_7_NORMAL
+  - _T2M_LAYER_COUNT_8
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 40f89a3b348dd6445a503403397a650b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 12cb10e8816112e428071d929e66a26a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_DiffuseMaps2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_HolesMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_0_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 95367a709ed35ae4facb845a4eb26e34, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_0_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_0_NormalMap:
+        m_Texture: {fileID: 2800000, guid: b33f6005d605f0f4c9da6a3a71aef7b2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_10_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_10_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_10_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_11_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_11_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_11_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_12_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_12_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_12_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_13_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_13_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_13_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_14_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_14_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_14_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_15_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_15_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_15_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_1_Diffuse:
+        m_Texture: {fileID: 2800000, guid: ec7e0b2832221a8498a1072801352ae9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_1_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_1_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 74e5696477cb44343ab51edbe0f3ad7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_2_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 9647eceba5ef72c4e99d97e87da9a411, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_2_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_2_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9f1b17ce95d33944b8d5309bd9169432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_3_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 72db4c824a6092244a3f4ee7bec69ebb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_3_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_3_NormalMap:
+        m_Texture: {fileID: 2800000, guid: b5ee6af96277f224691ed72a5d131cd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_4_Diffuse:
+        m_Texture: {fileID: 2800000, guid: c812515ae7dfb2147bdb25a2f1afecb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_4_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_4_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 8bc47920e9a3dac45b213f21ffe879e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_5_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 374d9a03066ca9d499ee9dd8cbfab7e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_5_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_5_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 25c3827b3a9fa6b4da8f29e2ba9f8583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_6_Diffuse:
+        m_Texture: {fileID: 2800000, guid: 45e647412e495154b9761a0ee35a1446, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_6_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_6_NormalMap:
+        m_Texture: {fileID: 2800000, guid: 9f1b17ce95d33944b8d5309bd9169432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_7_Diffuse:
+        m_Texture: {fileID: 2800000, guid: ba4ab22ffd1432d49ab1da54d1894001, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_7_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_7_NormalMap:
+        m_Texture: {fileID: 2800000, guid: e530b3e591cf9884881b1c2816d6d723, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_8_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_8_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_8_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_9_Diffuse:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_9_Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_Layer_9_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_MaskMaps2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_NormalMaps2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_SplatMap_0:
+        m_Texture: {fileID: 2800000, guid: d1d7c0abf7d52bc4a972c42772a99868, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_SplatMap_1:
+        m_Texture: {fileID: 2800000, guid: 60b238e075edba648acb130734a05c4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_SplatMap_2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_SplatMap_3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T2M_SplatMaps2DArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _T2M_Layer_0_NormalScale: 1
+    - _T2M_Layer_0_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_10_NormalScale: 1
+    - _T2M_Layer_10_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_11_NormalScale: 1
+    - _T2M_Layer_11_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_12_NormalScale: 1
+    - _T2M_Layer_12_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_13_NormalScale: 1
+    - _T2M_Layer_13_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_14_NormalScale: 1
+    - _T2M_Layer_14_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_15_NormalScale: 1
+    - _T2M_Layer_15_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_1_NormalScale: 1
+    - _T2M_Layer_1_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_2_NormalScale: 1
+    - _T2M_Layer_2_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_3_NormalScale: 1
+    - _T2M_Layer_3_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_4_NormalScale: 1
+    - _T2M_Layer_4_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_5_NormalScale: 1
+    - _T2M_Layer_5_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_6_NormalScale: 1
+    - _T2M_Layer_6_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_7_NormalScale: 1
+    - _T2M_Layer_7_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_8_NormalScale: 1
+    - _T2M_Layer_8_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_9_NormalScale: 1
+    - _T2M_Layer_9_SmoothnessFromDiffuseAlpha: 0
+    - _T2M_Layer_Count: 8
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_0_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_0_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_0_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_0_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_0_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_0_uvScaleOffset: {r: 56.666668, g: 66.666664, b: 0, a: 0}
+    - _T2M_Layer_10_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_10_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_10_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_10_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_10_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_10_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_11_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_11_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_11_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_11_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_11_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_11_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_12_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_12_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_12_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_12_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_12_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_12_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_13_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_13_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_13_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_13_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_13_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_13_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_14_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_14_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_14_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_14_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_14_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_14_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_15_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_15_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_15_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_15_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_15_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_15_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_1_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_1_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_1_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_1_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_1_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_1_uvScaleOffset: {r: 113.333336, g: 133.33333, b: 0, a: 0}
+    - _T2M_Layer_2_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_2_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_2_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_2_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_2_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_2_uvScaleOffset: {r: 17, g: 20, b: 0, a: -0.5}
+    - _T2M_Layer_3_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_3_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_3_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_3_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_3_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_3_uvScaleOffset: {r: 17, g: 20, b: 0, a: 0}
+    - _T2M_Layer_4_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_4_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_4_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_4_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_4_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_4_uvScaleOffset: {r: 24.285715, g: 28.571428, b: 0, a: 0}
+    - _T2M_Layer_5_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_5_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_5_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_5_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_5_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_5_uvScaleOffset: {r: 42.5, g: 50, b: 0, a: 0}
+    - _T2M_Layer_6_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_6_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_6_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_6_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_6_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_6_uvScaleOffset: {r: 17, g: 20, b: 0, a: 0}
+    - _T2M_Layer_7_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_7_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_7_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_7_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_7_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_7_uvScaleOffset: {r: 85, g: 100, b: 0, a: 0}
+    - _T2M_Layer_8_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_8_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_8_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_8_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_8_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_8_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _T2M_Layer_9_ColorTint: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_9_MapsUsage: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_9_MaskMapRemapMax: {r: 1, g: 1, b: 1, a: 1}
+    - _T2M_Layer_9_MaskMapRemapMin: {r: 0, g: 0, b: 0, a: 0}
+    - _T2M_Layer_9_MetallicOcclusionSmoothness: {r: 0, g: 1, b: 0, a: 0}
+    - _T2M_Layer_9_uvScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

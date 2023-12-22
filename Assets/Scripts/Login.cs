@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO;
+
+public class Player
+{
+    public string name;
+    public string id;
+    public Transform transform;
+}
 
 public class Login : MonoBehaviour
 {
@@ -12,6 +20,7 @@ public class Login : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         name_inputField.onEndEdit.AddListener(NEndInput);
         id_inputField.onEndEdit.AddListener(IEndInput);
         start_button.onClick.AddListener(click);
@@ -32,12 +41,21 @@ public class Login : MonoBehaviour
     {
         if (name_inputField.text == "易雲静" && id_inputField.text == "0210182")
         {
+            
             SceneManager.LoadScene(1);
         }
         else
         {
             Debug.Log("学号或姓名输入有误！");
         }
+    }
+
+    void WriteData()
+    {
+        Player player = new Player();
+        player.name = name_inputField.text;
+        player.id = id_inputField.text;
+
     }
 
     // Update is called once per frame
